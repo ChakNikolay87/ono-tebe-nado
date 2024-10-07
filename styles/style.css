@@ -12,10 +12,9 @@
     list-style: none;
     display: flex;
     padding: 136px 36px 135px 50.5px;
-
 }
 
-.header_logo{
+.header_logo {
     padding: 92px 175px 96px 0;
 }
 
@@ -45,18 +44,16 @@
     font-size: 18px;
 }
 
-
 .header__links-list {
     text-decoration: none;
 }
 
-
 .header__logo-image {
     width: 129px;
     height: 104px;
-
 }
-.address{
+
+.address {
     padding: 97px 49px 98px 0;
 }
 
