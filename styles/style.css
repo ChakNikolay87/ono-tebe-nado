@@ -14,9 +14,11 @@
     padding: 136px 23px 135px 40px;
 
 }
+
 .header__logo-image img {
     margin-left: -30px; /* сдвиг изображения влево */
 }
+
 .header_menu li {
     margin-right: 13px;
 }
@@ -53,11 +55,13 @@
 .header_logo {
     padding: 92px 140px 96px 0;
 }
+
 .header__logo-image {
     width: 129px;
     height: 104px;
 
 }
+
 .address {
     padding: 97px 49px 98px 0;
 }
@@ -68,9 +72,10 @@
 }
 
 .cover {
-    background-image: url("../images/cover.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cover.jpg");
     color: #FFFFFF;
-    height: 757px;
+    height: 757px
+
 }
 
 .cover__title {
@@ -144,19 +149,23 @@
 .lots__card-list-item-1 {
     width: 334px;
     height: 563px;
-    background-image: url("../images/card-lot-01.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-01.jpg");
+
+    /*background-image: url("../images/card-lot-01.jpg");*/
 }
 
 .lots__card-list-item-2 {
     width: 334px;
     height: 563px;
-    background-image: url("../images/card-lot-02.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-02.jpg");
+    /*background-image: url("../images/card-lot-02.jpg");*/
 }
 
 .lots__card-list-item-3 {
     width: 334px;
     height: 563px;
-    background-image: url("../images/card-lot-03.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-03.jpg");
+    /*background-image: url("../images/card-lot-03.jpg");*/
 }
 
 .card-link {
@@ -260,6 +269,7 @@
 .footer__menu-link_active {
     padding-left: 80px;
 }
+
 .footer__menu-link-1 {
     padding-left: 38px;
 }
